@@ -9,7 +9,7 @@ export default function Cena({nombre, color, precio, setTotal}) {
         setTotal((eTotal)=> eTotal+precio);
         elemento.target.parentNode.parentNode.parentNode.style.display="none";
     };
-
+    
     return (
     <>
     <div className='rey' style={{backgroundColor: color}}>
